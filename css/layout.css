@@ -1,0 +1,96 @@
+/* 
+* Amazium V1.0.1
+* Copyright 2012, Mike Ballan
+* www.amazium.co.uk
+*/
+
+/***** Place standard 960px view CSS under here *****/
+
+/* globals */
+body{background:url(../img/backgroundRepeat.png) #E6E7E9 fixed; font-family:arial, helvetica, sans-serif;}
+.center{text-align:center;}
+
+/* brand colors */
+.orange{color:#e75234;}
+.blue1{color:#18adcb} /* Saturated Blue */
+.white{color:#f7f7f7;}
+
+/* effects */
+.shadow {
+  -moz-box-shadow:    -5px 3px 5px 6px #000;
+  -webkit-box-shadow: -5px 3px 5px 6px #000;
+  box-shadow:         -5px 3px 5px 6px #000;
+}
+
+/* general layout */
+#main {padding:4em 0; }
+section{margin-bottom:2em; border-bottom:1px dotted #999;}
+#about {padding-top:2em; padding-bottom:0; margin-bottom:2em;}
+.service {padding-bottom:2em;}
+.row img{width:100%; max-width:300px; margin:0 auto; display:block;}
+.example{ padding:5px 0 5px 0; background-color:#eee; text-align:center; }
+.sectionTitle{text-align:center;}
+span.note{display:block; margin-top:1em;}
+
+/* header styles */
+header{text-align:center; overflow:hidden; background-color:#E6E7E9;}
+img.header{width:100%; max-height:650px; max-width:1600px; margin-bottom:-11%;}
+h1.intro{color:#fff; margin-top:-34%; text-transform:uppercase; letter-spacing:0.1em; text-shadow: 0px 2px #ccc;}
+span.intro1, span.intro2{display:block;}
+span.intro1{font-size:1em;}
+span.intro2{font-size:0.5em;}
+h2.beacreaCred{font-size:.1em; margin-top:-3%; color:#eee;}
+h2.beacreaCred a{color:#eee; border-bottom:.1em dotted #eee;}
+h2.beacreaCred a:hover{color:#e75234; border-bottom:.1em dotted #e75234;}
+span#siteDesc{display:block; text-align:center; font-size:2em; background:#18adcb; color:#fff; padding:4px 0;}
+
+/* services */
+img.productImage{}
+.price{font-size:2em; display:block;}
+.timetable{font-size:1em; margin-top:1em;}
+
+/* about */
+#about{}
+#whyMake{margin-top:3%;}
+
+/* contact */
+#contact column{text-align:center;}
+/* footer */
+footer{background:url(../img/bottomRepeat.png) top center repeat-x; padding-top:200px;}
+footer p{background:#333; text-align:center; padding:4px; margin:0;}
+/***** End *****/	
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+/***** Place iPad view CSS under here (Smaller than 959px) *****/
+
+.test-class								{ margin:0; padding:0; }
+
+/***** End *****/
+
+
+
+
+} @media only screen and (max-width: 767px) {
+
+/***** Place iPhone portrait view CSS under here (300px) *****/
+
+.test-class								{ margin:0; padding:0; }
+
+/***** End *****/
+
+
+
+
+} @media only screen and (min-width: 480px) and (max-width: 767px) {
+
+/***** Place iPhone landscape view CSS under here (456px) *****/
+
+h1{text-align:center; font-size:3em;}
+
+/***** End *****/
+
+}
